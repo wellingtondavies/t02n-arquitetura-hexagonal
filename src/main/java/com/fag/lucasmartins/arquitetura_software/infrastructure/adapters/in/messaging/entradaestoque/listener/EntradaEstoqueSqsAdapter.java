@@ -10,13 +10,13 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 @Component
-public class EntradaEstoqueSQSAdapter {
+public class EntradaEstoqueSqsAdapter {
 
-    private static final Logger log = LoggerFactory.getLogger(EntradaEstoqueSQSAdapter.class);
+    private static final Logger log = LoggerFactory.getLogger(EntradaEstoqueSqsAdapter.class);
 
     private final EstoqueServicePort estoqueServicePort;
 
-    public EntradaEstoqueSQSAdapter(EstoqueServicePort estoqueServicePort) {
+    public EntradaEstoqueSqsAdapter(EstoqueServicePort estoqueServicePort) {
         this.estoqueServicePort = estoqueServicePort;
     }
 
